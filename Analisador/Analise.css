@@ -23,7 +23,7 @@ header{
 section{
     text-align: center;
     background-color: white;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     padding: 10px;
     border-radius: 15px;
