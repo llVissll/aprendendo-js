@@ -29,7 +29,8 @@ section{
     border-radius: 15px;
 }
 select#sel{
-    width: 150px;
+    max-width: 200px;
+    max-height: 200px;
     
 }
 footer{
