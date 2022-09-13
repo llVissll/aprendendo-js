@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrou Saiu</title>
+
+    <style> #fundo {
+
+
+        background-image: linear-gradient(45deg, black, rgb(149, 0, 248));
+        height: 100vh;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font: normal 25pt arial;
+
+
+    }
+    #test{
+
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        padding: 15px;
+    }
+    
+    div#area {
+
+        background-color: aqua;
+        color: white;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 200px;
+       
+    }
+
+
+    </style>
+
+</head>
+
+
+<body> 
+    <div id = 'fundo'>
+
+
+         <div id="test">
+    <div id="area" onmousedown="segurou()" onmouseup="soltou()" onmouseenter="entrou()" onmouseout="saiu()" onmousemove="passou()" onclick="clicou()" >
+    </div>
+    </div>
+   </div>
+   <script>
+    
+    var a = document.getElementById('area')
+/*
+    
+    a.addEventListener('mousedown', segurou)
+    a.addEventListener('mouseup', soltou)
+    a.addEventListener('mouseenter', entrou)
+    a.addEventListener('mouseout', saiu)
+  */
+    function segurou() {
+        a.innerText = "segurou"
+        a.style.background = 'darkblue'
+
+    }
+    function soltou() {
+        a.innerText = "soltou"
+        a.style.background = 'grey'
+
+
+    }
+    function entrou() {
+        a.innerText = "entrou"
+        a.style.background = 'orange'
+
+    }
+
+    function saiu() {
+        a.innerText = "saiu"
+        a.style.background = 'black'
+
+    }
+    /*function passou() {
+        a.innerText = 'passo'
+        a.style.background = 'aqua'
+        
+    }
+
+    function clicou() {
+         a.innerText = 'clicou'
+         a.style.background = 'darklivegreen'
+}
+*/
+
+    </script>
+    
+</body>
+
+
+</html>

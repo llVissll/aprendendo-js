@@ -1,0 +1,33 @@
+body{
+    background-color: seagreen; 
+    font: normal 15pt arial;
+    margin-top: 15%;
+
+}
+
+
+header{
+    text-align: center;
+
+
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 3%;
+    width: 500px;
+    box-shadow: 6px 6px 20px rgb(0, 0, 0);
+    margin-top: 6%;
+    
+
+
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    margin-top: 55%;
+
+
+}

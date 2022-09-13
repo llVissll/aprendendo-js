@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sominha</title>
+    <style> 
+
+    #fundo {
+
+        background-image: linear-gradient(45deg, black, rgb(0, 255, 179));
+        height: 100vh;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        
+       }
+       
+       #pcal {
+
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        padding: 15px;
+        
+
+      }
+    
+
+      
+
+    input {
+        font: normal 18pt arial;
+        width: 100px;
+
+
+    }
+    div#res {
+        margin-top: 20px;
+    }
+    #botao{
+        background-color: black;
+        color: white;
+    }
+    #botao:hover{
+        background-color: grey;
+    }
+    #res{
+        font: normal 18pt arial;
+    }
+
+
+    </style>
+</head>
+
+
+
+<body>
+    
+    
+    <div id="fundo"> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       
+        <h1>Soma ai:</h1>
+        
+
+
+        <div id= 'pcal'>
+    <input type="number" name="tn1" id="tn1"> + 
+    <input type="number" name="tn2" id="tn2">
+    <input type="button" id="botao" value="somar" onclick="somar()">
+    <div id = 'res'> Resultado: </div>
+</div>
+
+</div>
+    <script>
+
+        function somar(){
+            var tn1 = document.getElementById('tn1')
+            var tn2 = document.getElementById('tn2')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            var res = document.getElementById('res')
+            res.innerText =`O resultado é: ${s}` 
+
+
+        }
+
+    </script>
+</body>
+
+
+
+</html>

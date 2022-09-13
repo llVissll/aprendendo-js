@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body {
+
+        font: normal 30pt arial;
+        background-color: aqua;
+        margin-left: 25%;
+        
+
+    }
+
+       h2 {
+
+        font: normal 30pt arial;
+        margin-left: 1%;
+        
+  } 
+       
+    </style>
+</head>
+
+
+<body>
+<h2>Descubra sua tabuada:</h2>
+
+    <script>
+
+var tab = Number(window.prompt('digite um número:'))
+var i = 0
+var result = 0
+
+document.write(`a tabuada do ${tab} é: <br/> <br/> `)
+
+for (; i < 11; i++) {
+
+ result = tab * i   
+
+document.write(`
+ 
+ ${tab} x ${i}  = ${result} <br/>
+ 
+`
+)
+}
+    </script>
+</body>
+</html>

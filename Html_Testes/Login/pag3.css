@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(45deg, cyan, yellow);
+    height: 98vh;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 45px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    position: absolute;
+    
+}
+#login{
+    
+    text-align: left;
+    font: normal 17pt arial;
+}
+#tx1{
+    
+    padding: 11px;
+    width: 190px;
+    border: none;
+    outline: none;
+
+}
+#tx2{
+    margin-top: 10px;
+    padding: 11px;
+    width: 190px;
+    border: none;
+    outline: none;
+
+}
+#email{
+    margin-top: 10px;
+    padding: 11px;
+    width: 190px;
+    border: none;
+    outline: none;
+}
+#label{
+    margin-right: 153px;
+}
+#label1{
+    margin-right: 119px;
+    
+}
+#label2{
+    margin-right: 80px;
+    
+}
+
+
+
+    
+#botao{
+    margin-top: 25px;
+    background-color: rgb(3, 130, 235);
+    border-radius: 8px;
+    padding: 11px;
+    width: 210px;
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+#botao:hover{
+    background-color: rgb(92, 92, 185)
+}
+#esquece{
+    cursor: pointer;
+    
+}
+#pag2{
+    margin-top: 7px;
+    color: white;
+    
+
+    }

@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    font: normal 15pt normal;
+    text-align: center;
+}
+#video{
+    margin-top: 50px;
+}
+#redes{
+    text-align: left;
+}
+a{
+    text-decoration: underline;
+    color: rgb(93, 93, 173);
+}
+
+
+
+
+
+
+

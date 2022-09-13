@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="estilo_ver.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+
+    </header>
+
+    <section>
+
+        
+        <div>Ano de nascimento: <input type="number" id="ano1" >
+            <p id="xd1">Sexo:
+                <input type="radio" name="radsex" checked>
+                <label for="mas">Masculino </label>
+                <input type="radio" name="radsex" >
+                <label for="fem">Feminino</label>
+            </p>
+            <div id = 'botao'>
+                <input type="button" value="Verificar" onclick="carregar()">
+            </div>
+            
+            
+        <br>
+                <div id="res">
+                         Resultado:
+                </div>  
+
+        </div>
+        
+        
+    </section>
+    <footer>
+        <p>&copy;Viss Projects!</p>
+        
+    </footer>
+    <script src="verific.js"></script>
+    
+</body>
+</html>

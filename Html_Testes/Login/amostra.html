@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TESTE</h1>
+    <p>SEU LOGIN: <div id="tx1">aaa</div></p>
+    <P>SUA SENHA: <div id="tx2">bbb</div></P>
+    <input type="button" value="att" onclick="att()">
+    
+
+
+<script>
+    let login = document.getElementById('login1')
+    let senha = document.getElementById('senha1')
+    let login1 = document.getElementById('tx1')
+    let senha1 = document.getElementById('tx2')
+    function att(){
+        login1.innerText = `${login}`
+        senha1.innerText = `${senha}`
+
+    }
+</script>
+</body>
+</html>

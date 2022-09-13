@@ -1,0 +1,121 @@
+Body{
+    background-color: rgb(131, 71, 226);
+    font: normal 18pt arial;
+    
+}
+
+header{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    
+}
+
+
+
+#botao{
+    margin-top: 150px;
+    font: normal 15pt arial;
+    margin-left: 400px;
+    background-color: black;
+    color: white;
+    
+
+}
+#botao:hover{
+    background-color: grey;
+
+}
+#zaun1{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+#zaun1:hover{
+
+    background-color: grey;
+    
+    
+    }
+#piltover1{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+#piltover1:hover{
+
+background-color: grey;
+
+
+}
+#ionia1{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+   
+
+}
+#ionia1:hover{
+
+    background-color: grey;
+    
+    
+    }
+#noxus1{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+#noxus1:hover{
+
+    background-color: rgb(128, 128, 128);
+   
+    
+    }
+#papel{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 10px 10px 20px black;
+    margin-top: 120px;
+    
+
+}
+.pergunta{
+
+background-color: black;
+color: rgb(255, 255, 255);
+
+
+}
+
+section{
+
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    
+   
+}
+
+footer{
+font-style: italic;
+font: italic 10pt ;
+text-align: center;
+margin-top: 70px;
+
+}

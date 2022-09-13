@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(45deg, #0AD8FE, #0AFE12 );
+    font: normal 16pt arial;
+    margin-top: 150px;
+    height: 83.2vh;
+
+
+}
+header{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+    box-shadow: inset 10px 10px 20px rgb(19, 119, 44);
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    
+}
+#botao{
+    margin-left: 200px;
+
+
+}
+
+section{
+    
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 15px;
+    
+
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+
+
+}

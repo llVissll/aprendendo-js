@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra contas</title>
+
+<style> body{
+    background-color: aqua;
+    font: normal 25pt arial;
+    margin-left: 35%;
+    
+
+
+}
+h1 {
+    font: normal 40pt arial;
+    margin-right: 35%;
+   margin-top: 15%;
+    
+}
+
+</style>
+
+</head>
+<h1>Continhas :)</h1>
+
+<body>
+    <script>
+        var n1 = Number(window.prompt('digite um número:'))
+        var n2 = Number(window.prompt('Digite outro número:'))
+        var soma = n1 + n2
+        var sub = n1 - n2
+        var mult = n1 * n2
+        var div = n1 / n2
+        div = div.toFixed(2)
+        var res = n1 % n2
+        var exp = n1 ** n2
+
+      // document.writeln(n1 > n2?`${n1} é maior que ${n2} <br/> ${n1} é diferente de ${n2}` : (n1 < n2?`${n1} é menor que ${n2}<br/> ${n1} é diferente de ${n2}` : `${n1} é igual a ${n2}  ` ) )
+    
+       /* document.write(n1 > n2?`${n1} é maior que ${n2} <br/> ` : `${n1} é menor que o ${n2}</br>` )
+        document.write(n1 === n2?`${n1} é igual a ${n2}` : `${n1} é diferente de ${n2}` )
+       */
+
+        if (n1 > n2){
+           
+            document.write(`${n1} é maior que o ${n2}<br/>`)
+            document.write(`${n1} é diferente de ${n2}`)
+
+        }
+        else if(n1 < n2)
+        {
+            document.write(`${n1} é menor que o ${n2}<br/>`)
+            document.write(`${n1} é diferente de ${n2}`)
+        }
+        
+        else {
+
+            document.write(`${n1} é igual a ${n2}`)
+        }
+        
+
+      
+        document.writeln(` <br/> ${n1} + ${n2} = ${soma} <br/>
+        ${n1} - ${n2} = ${sub} <br/>
+        ${n1} / ${n2} = ${div} <br/>
+        ${n1} x ${n2} = ${mult} <br/>
+        ${n1} % ${n2} = ${res}  <br/>
+        ${n1} ** ${n2} = ${exp}
+
+        ` 
+        )
+
+    </script>
+</body>
+</html>
